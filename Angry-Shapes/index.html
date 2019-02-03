@@ -1,0 +1,61 @@
+<html>
+
+<!-- 1. Boiler Plate Project -->
+
+<head>
+<script src="libs/three.js"></script>
+<script src="libs/keyboard.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- 2. include phyis.js -->
+<script src="libs/physi.js"></script>
+</head>
+
+<div class = "row" style = "text-align: center">
+	<h1>Wonky Angry Shapes!</h1>
+	<h3>Knock all the weird shapes to the ground!</h3>
+</div>
+<div class = "row" style = "text-align: center;">
+<h3 id = "score1" style = "visibility: hidden;" >0</h3>
+</div>
+
+<body>
+
+<script src="js/startingAngryBirdsDemo.js"></script>
+
+<div class = "row">
+<div class = "col-md-1" style = "align:left;">
+<p>
+
+
+  Cannon Controls:
+<br /> W = move up
+<br /> A = move left
+<br /> S = move down
+<br /> D = move right
+<br /> F = Fire Cannon
+<br /> L = Remove Stuck ball
+<br />
+<br />Camera Controls:
+<br />H = move up
+<br />B = move down
+<br />J = move left
+<br />N = move right
+<br />K = move forward
+<br />M = move backward
+
+</p>
+</div>
+<div class = "col-md-8" style = "text-align: center;" id = "playarea">
+<div class = "buttonholder" style = "text-align: center;">
+	<button type="button" id = "onbutton"
+	onclick="init()" style = "margin: auto;">
+	Do you wanna play a game?</button>
+</div>
+</div>
+</div>
+</body>
+
+</html>
